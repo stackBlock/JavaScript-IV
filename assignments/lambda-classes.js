@@ -1,4 +1,4 @@
-Lambda Class
+
 
 class Person {
   constructor(attributes){
@@ -6,7 +6,7 @@ class Person {
     this.age = attributes.age;
     this.location = attributes.location;
     this.gender = attributes.gender;
-  }
+  };
   // Methods
   speak() {
     return `Hello my name is ${this.name}, I am from ${this.location}`;
